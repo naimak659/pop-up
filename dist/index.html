@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <main
+      class="bg-blue-100 h-screen w-screen relative flex justify-center items-center"
+    >
+      <div>
+        <button
+          id="pop"
+          class="bg-green-500 px-10 py-4  rounded-3xl text-2xl font-semibold text-white hover:bg-green-600 active:text-gray-300 duration-500 font-[kalam]"
+        >
+          PoP Up!!
+        </button>
+      </div>
+      <div id="popBox" class="visible hidden duration-500">
+        <picture>
+          <img
+            class="w-12 h-auto"
+            src="../images/right.png"
+            alt="images/right.png"
+          />
+        </picture>
+        <div>
+          <h3 class="block my-6 font-[Kalam]">Thank You for popping me!!</h3>
+        </div>
+        <button
+          id="close"
+          class="bg-red-500 px-6 py-2 text-white rounded-3xl font-[kalam]"
+        >
+          Close
+        </button>
+      </div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
