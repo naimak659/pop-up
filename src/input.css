@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 .visibleobox{
-    @apply bg-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-3xl p-12 flex flex-col items-center
+    @apply bg-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-3xl p-12 flex flex-col items-center scale-125 dark:bg-csBG 
 }
 .hiddenbox{
     @apply scale-0 top-0
+}
+.contain {
+    @apply duration-500 dark:bg-csDark bg-blue-100 h-screen w-screen relative flex justify-center items-center
 }

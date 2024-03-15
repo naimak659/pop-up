@@ -12,14 +12,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="output.css" />
   </head>
-  <body>
+  <body class="">
     <main
-      class="bg-blue-100 h-screen w-screen relative flex justify-center items-center"
+      class="contain"
     >
       <div>
         <button
           id="pop"
-          class="bg-green-500 px-10 py-4  rounded-3xl text-2xl font-semibold text-white hover:bg-green-600 active:text-gray-300 duration-500 font-[kalam]"
+          class="bg-green-500 px-10 py-4 rounded-3xl text-2xl font-semibold text-white hover:bg-green-600 active:text-gray-300 duration-500 font-[kalam]"
         >
           PoP Up!!
         </button>
@@ -33,13 +33,23 @@
           />
         </picture>
         <div>
-          <h3 class="block my-6 font-[Kalam]">Thank You for popping me!!</h3>
+          <h3 class="block my-6 dark:text-white font-[Kalam]">
+            Thank You for popping me!!
+          </h3>
         </div>
         <button
           id="close"
           class="bg-red-500 px-6 py-2 text-white rounded-3xl font-[kalam]"
         >
           Close
+        </button>
+      </div>
+      <div class="theme absolute top-8 right-10">
+        <button
+        id="thememode"
+          class="dark:bg-white bg-csBG dark:text-csDark text-white rounded-full p-2 "
+        >
+          <span>DRK</span>
         </button>
       </div>
     </main>
